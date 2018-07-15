@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 590;
+  padding-left: 8.1px;
+  padding-right: 8.1px;
+  padding-bottom: 35px;
+  color: var(--dark);
+}
+
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+body {
+  background-color: var(--primary);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.header a {
+  font-family: arial;
+  font-size: 22px;
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  background-color: var(--light);
+  width: 100%;
+  padding: 8px;
+  margin: 10px auto;
+  justify-content: center;
+  border: none;
+  box-shadow: var(--shadow);
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.nav {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  background-color: orange;
+  color: var(--light);
+}
+
+.profile-pic-file {
+  margin-top: 100px;
+}
+
+.portfolio-heading {
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.portfolio h4 a {
+  text-transform: uppercase;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--dark);
+}
+
+#portfoliocontact P {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  text-align: center;
+  font-weight: 0;
+  padding-left: 8.1px;
+  padding-right: 8.1px;
+  padding-bottom: 0px;
+  color: var(--dark);
+}
+
+#contact-heading {
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 100px;
+  color: var(--dark);
+  padding: 0px;
+}
+
+.portfolio h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--dark);
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.portfolio img, .profile-pic img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 14px;
+}
+
+.footer-menu {
+  display: none;
+}
+
+footer {
+  border-top: 2px solid var(--light);
+  margin: 0 8.1px;
+  padding-top: 15px;
+}
+
+footer a {
+  float: right;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: var(--primary);
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav {
+    width: 100px;
+  }
+  .portfolio {
+    background-color: var(--light);
+    padding: 30px 0;
+  }
+  .portfolio-heading {
+    padding: 10px 0;
+  }
+  .profile-pic img {
+    width: 40%;
+    padding: 0 10px;
+    margin-bottom: 40px;
+  }
+  .profile-pic {
+    display: flex;
+    flex-flow: row-reverse;
+    width: 100%;
+  }
+  .introduction {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    width: 60%;
+  }
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-content>* {
+    flex: 1 1 50%;
+  }
+  .back-to-top {
+    display: none;
+  }
+  .footer-menu {
+    display: block;
+    display: contents;
+    list-style: none;
+  }
+  .footer-menu {
+    margin: 0 5px;
+    text-decoration: none;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+
+  }
+  .footer-menu ul {
+     float: left;
+   }
+
+
+
+  #footer-float-right a {
+    float: right;
+    padding: 0 5px;
+    text-decoration: none;
+    color: var(--dark);
+  }
+  #footer-float-right a:hover {
+    background-color: black;
+    color: var(--light);
+
+}
+
+
+@media only screen and (min-width: 1025px) {
+
+  .header-links {
+    display: absolute;
+    top: 0;
+    right: 100;
+    margin: 20px 0;
+  }
+   .nav-links {
+    position: absolute;
+    top: 0;
+    right: 100px;
+  }
+  .header-link {
+    text-align: left;
+
+  }
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-content>* {
+    flex: 1 1 30%;
+
+}
+
+header {
+  display: flex;
+}
+
+.header {
+  text-align: left;
+}
+.header-links {
+  margin-left: 20px;
+}
+
+.nav-links {
+  padding: 10px 15px;
+
+}
+.nav-links a {
+padding: 8px 15px;
+}
+}
