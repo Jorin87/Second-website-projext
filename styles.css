@@ -211,15 +211,15 @@ footer a {
 }
 
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
 
   .header-links {
-    right: 100;
+    right: 100px;
     margin: 20px 0;
   }
    .nav-links {
     position: absolute;
-    
+
    right: 100px;
 
   }
